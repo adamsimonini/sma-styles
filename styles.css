@@ -1,0 +1,20 @@
+/* GLOBAL STYLES */
+.question-header a {
+    color: #0645AD;
+}
+.question-header a:hover {
+    cursor: pointer;
+}
+
+.sma-public-footer {
+height: 200px;
+background: #26374a url('https://msp-phac.smapply.io/protected/resource/eyJoZnJlIjogMTA3NDM3MTEwLCAidnEiOiAxMzMxMzJ9/') no-repeat right bottom;
+}
+
+.sma-public-footer .container {
+	display: none;
+}
+
+.checkbox input {
+    transform: scale(1.5)
+}
