@@ -18,3 +18,37 @@ background: #26374a url('https://msp-phac.smapply.io/protected/resource/eyJoZnJl
 .checkbox input {
     transform: scale(1.5)
 }
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    opacity: 1;
+    cursor: help;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+  .tooltiptext {
+      width: 50vw;
+      padding: 5px;
+  }
