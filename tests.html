@@ -1,0 +1,35 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+    <!-- Tooltips -->
+    <a style='cursor:help' href='' title='A rogue Multiverse agent goes on a manhunt for versions of himself, getting stronger with each kill. With only one version remaining, he races against the clock to finish him and become "The One."'>Link with title & blank href</a>
+    <br /><br />
+    <a style='cursor:help' href='' role="tooltip" title='Will Hunting (Matt Damon) has a genius-level IQ but chooses to work as a janitor at MIT. When he solves a difficult graduate-level math problem, his talents are discovered by Professor Gerald Lambeau (Stellan Skarsgard), who decides to help the misguided youth reach his potential. When Will is arrested for attacking a police officer, Professor Lambeau makes a deal to get leniency for him if he will get treatment from therapist Sean Maguire (Robin Williams). For more information'>Link with title, blank href, and role="tooltip"</a>
+    <br /><br />
+    <div class="tooltip" tabindex="1" aria-label="Hover over to learn more">Custom tooltip
+        <span class="tooltiptext">
+            Will Hunting (Matt Damon) has a genius-level IQ but chooses to work as a janitor at MIT. 
+            When he solves a difficult graduate-level math problem, his talents are discovered by Professor Gerald Lambeau (Stellan Skarsgard), 
+            who decides to help the misguided youth reach his potential. When Will is arrested for attacking a police officer, 
+            Professor Lambeau makes a deal to get leniency for him if he will get treatment from therapist Sean Maguire (Robin Williams).
+            For more information, see <a href="https://www.imdb.com/title/tt0119217/">Good Will Hunting's IMDb</a>
+        </span>
+    </div>
+    
+    <br /><br />
+    <div class="tooltip" tabindex="3" ari-describedby="tt3">Custom tooltip with aria-describedby <span id="tt3" class="tooltiptext">Some helpful text for you!</span></div>
+    <br /><br />
+    <button style='cursor:help' role="tooltip" aria-label='A rogue Multiverse agent goes on a manhunt for versions of himself, getting stronger with each kill. With only one version remaining, he races against the clock to finish him and become "The One."' title='A rogue Multiverse agent goes on a manhunt for versions of himself, getting stronger with each kill. With only one version remaining, he races against the clock to finish him and become "The One."'>Button with title & aria-label</button>
+    <br /><br />
+    <div class="tooltip" tabindex="3" aria-describedby='tt1'>Div with separate span </div>
+    <span id='tt1' class="tooltiptext">An English professor, one year after the sudden death of his boyfriend, is unable to cope with his typical days in 1960s Los Angeles.</a>
+    </span>
+
+</body>
+
+<style>
+    body {
+        margin: 5%
+    }
+</style>
