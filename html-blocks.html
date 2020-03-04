@@ -5,6 +5,18 @@
 Go to a question, options, validation, and select "word limits". From there, under current count, enter the following:
 Must not exceed {max} words. Current word count: <b>{count}</b>.
 
+<script>
+// in order for 
+// copying starts below this line, so don't include either "<script>" tag
+$(function (){
+    let textareas = $('textarea');
+    for(i=0;i< textareas.length; i++) {
+        $(textareas[i]).keyup();
+    }
+});
+ // copying ends above this line
+</script>
+    
 <div class="tooltip">Hover over me <span class="tooltiptext">Helping text</span></div>
 
 
